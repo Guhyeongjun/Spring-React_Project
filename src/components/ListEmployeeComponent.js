@@ -29,15 +29,15 @@ const ListEmployeeComponent = () => {
 
   return (
     <div className='container'>
-      <h2 className='text-center'>List Employees</h2>
+      <h2 className='text-center'>직원 리스트</h2>
       <Link to = "/add-employee" className = "btn btn-primary mb-2">Add Employee</Link>
       <table className='table table-bordered table striped'>
         <thead>
-          <th>Employee Id</th>
-          <th>Employee Fist Name</th>
-          <th>Employee Last Name</th>
-          <th>Employee Email Id</th>
-          <th>Actions</th>
+          <th>직원 번호</th>
+          <th>직원 이름(LastName)</th>
+          <th>직원 이름(FirstName)</th>
+          <th>직원 이메일</th>
+          <th>동작</th>
         </thead>
         <tbody>
           {
